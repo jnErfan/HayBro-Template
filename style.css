@@ -1,0 +1,125 @@
+.header-bg{
+   
+    width: 100%;
+    height:100vh ;
+    background-image: url(img/pics/1st.jpg);
+    background-repeat: no-repeat;
+    
+}
+.photo-album {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-frame {
+     position: relative;
+    overflow: hidden;
+}
+
+
+.photo-details {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    width: 370px;
+    height: 360px;
+    top: 0;
+
+
+
+}
+
+.photo-frame:hover .photo-details {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.589);
+
+}
+.text-album{
+    padding-top: 185px;
+    font-size: 20px;
+    color: beige;
+}
+.slider-ps{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 150px;
+}
+.fs-5{
+    color: rgb(209, 209, 209);
+    
+}
+.fa-facebook:hover{
+    transform: scale(1.4);
+    color: rgb(61, 61, 228);
+   
+}
+.fa-instagram:hover{
+    transform: scale(1.5);
+    color: rgb(255, 6, 180);
+   
+}
+.fa-twitter:hover{
+    transform: scale(1.5);
+    color: rgb(11, 181, 248);
+   
+}
+.ms-1 img{
+    margin-left: -100px;;
+}
+.footar-icon a{
+    text-decoration: none;
+    color: rgb(143, 143, 143);
+    font-size: 22px;
+     
+}
+.fb:hover{
+    transform: scale(1.4);
+    color: blue;
+   
+}
+.ins:hover{
+    transform: scale(1.5);
+    color: rgb(255, 6, 180);
+   
+}
+.twt:hover{
+    transform: scale(1.5);
+    color: rgb(11, 181, 248);
+   
+}
+.yt:hover{
+    transform: scale(1.5);
+    color: red;
+   
+}
+.footer{
+    background-color: rgb(41, 40, 40);
+}
+
+/* Scrool  */
+
+html{
+    scroll-behavior: smooth;
+  }
+
+  .scrol-bar{
+    box-shadow: 1px 1px 20px rgb(31, 31, 31);
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background: #ffffff;
+    bottom: 50px;
+    right: 50px;
+    border-radius: 100px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  #lightwidth-sec{
+      padding-top: 100px;
+  }
+  #happy{
+      padding-top: 100px;
+  }
