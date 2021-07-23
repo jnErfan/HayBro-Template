@@ -28,8 +28,8 @@
     display: none;
     position: absolute;
     padding: 20px;
-    width: 370px;
-    height: 360px;
+    width: 350px;
+    height: 350px;
     top: 0;
 
 
@@ -52,7 +52,7 @@
 .slider-ps{
     padding-top: 150px;
     padding-bottom: 150px;
-    padding-left: 150px;
+   
 }
 
 
@@ -152,3 +152,45 @@ html{
   #happy{
       padding-top: 100px;
   }
+
+
+
+
+  /*-------------- 
+  Meadia Quary
+  ---------------*/
+
+ 
+
+ /* Small Divice */
+  @media only screen and (max-width:688px) {
+    .header-title{
+     
+     font-size: 25px;
+     font-weight: 800;
+   
+    } 
+        
+    .header-dis{
+        font-size: 10px;
+        font-weight: 100;
+    }
+  
+  }
+  
+/* Midium Divice  */
+  @media only screen and (min-width:668px) and (max-width:992px) {
+    .header-title{
+     
+     font-size: 30px;
+     font-weight: 800;
+   
+    } 
+        
+    .header-dis{
+        font-size: 15px;
+        font-weight: 400;
+    }
+  
+  }
+  
