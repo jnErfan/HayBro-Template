@@ -1,5 +1,28 @@
 /* Header Css */
 
+/* Hover Nav Bar  */
+.hover-nav-items:after{
+content: '';
+background-color: white;
+display: block;
+height: 3px;
+width: 0%;
+transition: 1s;
+
+}
+
+
+
+.hover-nav-items:hover::after{
+    width: 100%;
+}
+
+.hover-nav-items:hover {
+    transform: rotate(15deg);
+    transition: transform 1s;
+}
+
+/* Header Start  */
 .header-bg{
    
     width: 100%;
